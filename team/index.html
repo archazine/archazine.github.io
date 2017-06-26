@@ -1,7 +1,7 @@
 ---
 layout: team_page
 title: Team
-excerpt: "Team Page of IIT HeartBeat"
+excerpt: "Team Page of Archazine MANIT"
 modified: 2016-07-26
 image:
   feature: team.jpg
@@ -52,11 +52,6 @@ function outputTeamData()
 	$.get("teamData.json", function(data, status){
         if(status)
         {
-            var faculty_advisors = shuffle(data[0].members);
-            for(var i=0;i<faculty_advisors.length;i++)
-            {
-                $("#faculty-advisors").append(createTeamCard(faculty_advisors[i]));
-            }
             var present_members = shuffle(data[1].members);
         	for(var i=0;i<present_members.length;i++)
         	{

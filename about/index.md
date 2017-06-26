@@ -1,7 +1,7 @@
 ---
 layout: about_page
-title: About IIT Heartbeat
-excerpt: "The Inter IIT magazine"
+title: About Archazine MANIT
+excerpt: "The Inter Archazine MANIT"
 image:
   feature: about.jpg
   <!-- title: About Us -->
